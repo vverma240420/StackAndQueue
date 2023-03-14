@@ -3,7 +3,6 @@
     internal class Stack
     {
 
-
         public Node top;
         public Stack()
         {
@@ -32,7 +31,7 @@
                 Console.WriteLine("Stack is Empty");
             }
             else
-                Console.WriteLine("{0} is the top most element", top.data);
+                Console.WriteLine("\n{0} is the top most element", top.data);
         }
         public void Pop()
         {
@@ -42,7 +41,7 @@
             }
             else
             {
-                Console.WriteLine("Value Popped is" + top.data);
+                Console.WriteLine("Value Popped is " + top.data);
                 top = top.next;
             }
         }
